@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, lightblue,royalblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 900px;
+    background: white;
+    box-shadow: 0 2px 20px rgba(4, 6, 6, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.translator_property .nav_item{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid #c7c7c7;
+    padding: 0px 20px;
+}
+
+.translator_property .nav_item li select{
+    outline: none;
+    border-style: none;
+    padding:10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(6, 6, 191, 0.768);
+    transition: all .3s ease-out;
+}
+
+
+.translator_property .nav_item li select:hover{
+    color: black;
+}
+.bx-transfer{
+    font-size: 22px;
+    color: lightsalmon;
+    cursor: pointer;
+
+}
+
+.bx-transfer:hover{
+    color: rgb(203, 30, 30);
+    transition: 0.5s color;
+}
+.write_box{
+    display: flex;
+
+}
+
+.Property_from, .Property_trans{
+    width: 100%;
+    position: relative;
+}
+.write_box textarea{
+    width: 100%;
+    height: 250px;
+    border-style: none;
+    outline: none;
+    resize: none;
+    padding: 10px 20px;
+font-size: 20px;
+color: #606060;
+position: relative;
+}
+
+.write_box textarea:nth-child(1){
+    border-right: 1px solid #c7c7c7;
+}
+
+.write_box .Icons{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.Icons .bx{
+    width: 35px;
+    height: 35px;
+    background: #ddd;
+    /* text-align: center; */
+    /* line-height: 35px; */
+display: flex;
+align-items: center;
+justify-content:center;
+border-radius: 50%;
+font-size: 18px;
+color: rgb(38, 38, 201);
+cursor: pointer;
+}
+
+.Icons .bx:hover{
+    background: #606060;
+    color: wheat;
+    transition: all 0.3s ease-out;
+}
+
+.code-length{
+    font-size:18px;
+    color: rgb(113, 122, 128);
+}
