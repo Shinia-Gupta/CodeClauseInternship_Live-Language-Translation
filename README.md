@@ -26,3 +26,7 @@ Through the integration of JavaScript, the translation process occurs in real-ti
 ![Screenshot 2023-11-25 163727](https://github.com/Shinia-Gupta/CodeClauseInternship_Live-Language-Translation/assets/113818197/abff2b68-d945-404e-9e7b-a58b7602e591)
 
 ![Screenshot 2023-11-25 163751](https://github.com/Shinia-Gupta/CodeClauseInternship_Live-Language-Translation/assets/113818197/005ac1b3-269e-4b80-8be6-17685d9e8be1)
+
+
+### Project Live
+[Click Here](https://shinia-gupta.github.io/CodeClauseInternship_Live-Language-Translation/)
