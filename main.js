@@ -47,7 +47,7 @@ fromVoice.addEventListener('click',function(){
     // console.log('icon clicked!');
 
     let fromTalk=new SpeechSynthesisUtterance(fromText.value);
-    fromText.lang=langOption[0].value;
+    fromTalk.lang=langOption[0].value;
     speechSynthesis.speak(fromTalk);
 })
 
